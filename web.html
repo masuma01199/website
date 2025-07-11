@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <head class="header">
+    <header class="header">
         <div class="logo"> LOGO </div>
         <button class="btn">Sign Up</button>
-    </head>
+    </header>
 
     <section class="section">
         <h1>Cool Dark UI Template for,<br>Webflow Agency</h1>
@@ -27,22 +27,28 @@
     </section>
 
     <section class="productive">
-    <div class="productive-box">
-      <h3>50K</h3>
-      <p>Active Users</p>
+  <div class="productive-content">
+    <h2>Joined Thousands of Productive Users.</h2>
+    <div class="productive-boxes">
+      <div class="productive-box">
+        <h3>50K</h3>
+        <p>Active Users</p>
+      </div>
+      <div class="productive-box">
+        <h3>2M+</h3>
+        <p>Focus Sessions</p>
+      </div>
+      <div class="productive-box">
+        <h3>95%</h3>
+        <p>Satisfaction Rate</p>
+      </div>
     </div>
-    <div class="productive-box">
-      <h3>2M+</h3>
-      <p>Focus Sessions</p>
-    </div>
-    <div class="productive-box">
-      <h3>95%</h3>
-      <p>Satisfaction Rate</p>
-    </div>
-  </section>
+  </div>
+</section>
+
 
     <section class="reviews">
-    <h2>What our users say</h2>
+    <h2 style="text-align: center;"><i>What our users say</i></h2>
     <div class="review-container">
       <div class="review">
         <img src="icon-star.png" alt="star">
@@ -52,37 +58,47 @@
         <img src="icon-star.png" alt="star">
         <p>“Loved by Designers”</p>
         <p>This template instantly leveled up our presence — Studio Vertex.</p>
+        <img src="avatar.png" alt="reviewer" class="reviewer-img">
+       <p><strong>Jane Doe</strong></p>
+       <p>July 10, 2025</p>
       </div>
       <div class="review">
-         <img src="icon-star.png" alt="star">
+        <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <p>“Loved by Designers”</p>
         <p>This template instantly leveled up our presence — Studio Vertex.</p>
+        <img src="avatar.png" alt="reviewer" class="reviewer-img">
+       <p><strong>Jane Doe</strong></p>
+       <p>July 10, 2025</p>
       </div>
       <div class="review">
-         <img src="icon-star.png" alt="star">
+        <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <img src="icon-star.png" alt="star">
         <p>“Loved by Designers”</p>
         <p>This template instantly leveled up our presence — Studio Vertex.</p>
+        <img src="avatar.png" alt="reviewer" class="reviewer-img">
+       <p><strong>Jane Doe</strong></p>
+       <p>July 10, 2025</p>
       </div>
     </div>
   </section>
   <section class="focus">
-    <h2>Ready to focus better</h2>
+    <h2><i>Ready to focus better</i></h2>
     <p>This template instantly leveled up our presence – Studio Vertex</p>
     <button class="btn">Get Started Free</button><br>
     <img src="wc-big.png" alt="FOCUS" class="focus-image">
   </section>
 
    <section class="contact">
-    <div>
-         <h2>Let’s Get in Touch</h2>
+    <div class="contact-wrapper">
+         <div class="contact-title">
+      <h2>Let’s Get in Touch</h2>
     </div>
     <form>
       <label for="email">Email</label>
@@ -93,11 +109,13 @@
 
     <label for="message">Message</label>
     <textarea id="message" placeholder="Write your message..." required></textarea>
+      <button class="btn" type="submit">Get in Touch</button>
     </form>
+    </div>
   </section>
 
     <footer class="footer">
-    <div class="logo">LOGO</div>
+    <div class="logo" style="font-size: 50px;">LOGO</div>
     <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
     <div class="footer-links">
       <a href="#">Home</a>

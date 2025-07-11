@@ -23,13 +23,18 @@ a {
   display: inline-block;
   margin-top: 10px;
 }
-
+.btn:hover {
+  background-color: #3730a3;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
 .header {
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+   background: url('Hero-bg.png') no-repeat center center/cover;
 }
 
 .logo {
@@ -41,6 +46,7 @@ a {
   text-align: center;
   padding: 60px 20px;
   background-color: #f0f4ff;
+  background: url('Hero-bg.png') no-repeat center center/cover;
 }
 
 .section h1 {
@@ -54,6 +60,7 @@ a {
   padding: 60px 20px;
   justify-content: center;
   gap: 40px;
+  background-color: rgb(238, 248, 255);
 }
 
 .action2 {
@@ -64,22 +71,30 @@ a {
   max-width: 300px;
   border-radius: 20px;
 }
-.productive {
-  display: flex;
-  justify-content: center;
-  background-color: #eef1ff;
-  padding: 40px;
-  gap: 40px;
+.productive-content {
   text-align: center;
+  background-color: rgb(254, 247, 237);
 }
 
-.productive-box h3 {
-  font-size: 2rem;
+.productive h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.productive h3{
+  font-size: 40px;
   color: #4f46e5;
 }
+.productive-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
 .reviews {
-  text-align: center;
+  text-align: left ;
   padding: 60px 20px;
+  background-color: #f7f9fc;
 }
 
 .review-container {
@@ -91,16 +106,24 @@ a {
 }
 
 .review {
-  background-color: #fff;
+  background-color: #f5ecec;
   border-radius: 10px;
   padding: 20px;
   width: 250px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
+.reviewer-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+  align-items: left;
+}
+
 .focus {
   text-align: center;
   padding: 60px 20px;
-  background-color: #f7f9fc;
+  background-color: #eef8fb;
 }
 
 .focus-image {
@@ -113,13 +136,30 @@ a {
   padding: 60px 20px;
   text-align: center;
 }
-
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.contact-title {
+  flex: 1;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
 .contact form {
   max-width: 500px;
   margin: auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  flex: 1;
 }
 
 .contact input,
@@ -129,7 +169,6 @@ a {
   border-radius: 8px;
   font-size: 16px;
 }
-
 .footer {
   padding: 40px 20px;
   text-align: center;
